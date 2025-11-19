@@ -1,20 +1,33 @@
 body {
   background-color: rgb(21, 70, 21);
   color: rgb(255, 0, 0);
+  padding: 30px;
+  border: 8px solid green;
+  margin: 20px;
 }
 h1 {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   color: blue;
   font-weight: bold;
+  margin: 20px;
+  padding: 30px;
+  border: 5px solid rgb(247, 247, 248);
+  width:500px;
 }
 p {
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
+  border-left: 5px dotted yellow;
+  border-right: 5px dotted yellow;
+  padding: 20px;
+  margin: 10px;
 }
 img {
   width: 150pt;
+  border: 5px dotted rgb(92, 92, 145);
+  padding: 15px;
 }
 a {
   text-decoration: none;
@@ -22,4 +35,11 @@ a {
 }
 a:hover {
   color: blue;
+}
+ul {
+  border-style: double;
+border-color: aliceblue;
+  list-style-type: none;
+  padding: 10px;
+  width: 300px;
 }
